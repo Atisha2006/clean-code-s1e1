@@ -1,5 +1,5 @@
 /* Basic Style */
-.page{
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -22,7 +22,8 @@
 
 @media (max-width:768px) {
 
-  .header { text-align: center;
+  .header {
+    text-align: center;
   }
 
 }
@@ -33,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.task-input, .task-label {
+.task-input,
+.task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -48,11 +50,14 @@
   padding: 0px;
 }
 
-.item, .title{
+.item,
+.title {
   list-style: none;
 }
 
-.task-input,.task-input-checkbox,.btn{
+.task-input,
+.task-input-checkbox,
+.btn {
   outline: none;
 }
 
@@ -72,7 +77,7 @@
 
 /* Heading */
 .title,
-.task-title{
+.task-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -118,7 +123,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
